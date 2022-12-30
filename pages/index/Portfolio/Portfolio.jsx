@@ -45,50 +45,50 @@ const Portfolio = () => {
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 text-white mt-8">
           <div className="text-gray-300 h-50 cursor-pointer">
             <Image
-              src="/sh.jpg"
+              src="/PortfolioAssets/sh.jpg"
               className="h-full w-full object-fill"
-              height={8}
-              width={8}
+              height={800}
+              width={800}
             />
           </div>
           <div className="text-gray-300 h-44 cursor-pointer">
             <Image
-              src="/R.jpeg"
+              src="/PortfolioAssets/R.jpeg"
               className="h-full w-full object-fill"
-              height={8}
-              width={8}
+              height={800}
+              width={800}
             />
           </div>
           <div className="text-gray-300 h-44 cursor-pointer">
             <Image
-              src="/3.jpeg"
+              src="/PortfolioAssets/3.jpeg"
               className="h-full w-full object-fill"
-              height={8}
-              width={8}
+              height={800}
+              width={800}
             />
           </div>
           <div className="text-gray-300 h-44 cursor-pointer">
             <Image
-              src="/4.jpeg"
+              src="/PortfolioAssets/4.jpg"
               className="h-full w-full object-fill"
-              height={8}
-              width={8}
+              height={800}
+              width={800}
             />
           </div>
           <div className="text-gray-300 h-44 cursor-pointer">
             <Image
-              src="/5.jpeg"
+              src="/PortfolioAssets/5.jpg"
               className="h-full w-full object-fill"
-              height={8}
-              width={8}
+              height={800}
+              width={800}
             />
           </div>
           <div className="text-gray-300 h-44 cursor-pointer">
             <Image
-              src="/6.jpeg"
+              src="/PortfolioAssets/6.jpg"
               className="h-full w-full object-fill"
-              height={8}
-              width={8}
+              height={800}
+              width={800}
             />
           </div>
         </div>

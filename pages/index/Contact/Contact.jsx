@@ -10,15 +10,15 @@ const Contact = () => {
       <div className="md:mr-3 w-full mt-6 md:mt-0 rounded-sm">
         <div className=" p-2 flex flex-col">
           <div className="flex py-2 item-center bg-gray-900 rounded-xl pl-3 my-1">
-            <Image src="/email.png" width="24" height="24" />
+            <Image src="/ContactAssets/email.png" width="24" height="24" />
             <span className="ml-4 font-semibold">hamzafaham111@gmail.com</span>
           </div>
           <div className="flex py-2 items-center bg-gray-900 rounded-xl pl-3 my-1">
-            <Image src="/phone0" width="24" height="24" />
+            <Image src="/ContactAssets/phone.png" width="24" height="24" />
             <span className="ml-4 font-semibold">03169650686</span>
           </div>
           <div className="flex py-2 items-center bg-gray-900 rounded-xl pl-3 my-1">
-            <Image src="/address.png" width="24" height="24" />
+            <Image src="/ContactAssets/address.png" width="24" height="24" />
             <span className="ml-4 font-semibold w-3/5 leading-none">
               Chitral Line, Lahore Cantt, Lahore, Punjab, Pakistan.
             </span>

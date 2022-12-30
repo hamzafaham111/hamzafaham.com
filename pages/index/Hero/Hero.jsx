@@ -23,10 +23,9 @@ const Hero = () => {
         <div className="">
           <Image
             className="object-cover"
-            style={{ height: "500px" }}
-            src="/MyImage1.jpg"
-            width={8}
-            height={8}
+            src="/HeroAssets/MyImage1.jpg"
+            width={450}
+            height={450}
           />
         </div>
       </div>
