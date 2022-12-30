@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.primary-color {
+  color: #df2777;
+}
+.primary-bg {
+  background-color: #df2777;
+}
+
+.primary-border {
+  border: solid #df2777 1px;
+}
+.secondary-color {
+  color: light #d1d5db;
+}
+.secondary-bg {
+  background-color: #d1d5db;
+}
+.secondary-border {
+  border: solid #d1d5db;
+}
+.root-bg {
+  background-color: black;
+}
