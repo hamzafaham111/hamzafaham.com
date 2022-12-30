@@ -1,5 +1,4 @@
 import React from "react";
-import MyImage from "./Assets/MyImage1.jpg";
 import Image from "next/image";
 const AboutMe = () => {
   return (
@@ -11,7 +10,7 @@ const AboutMe = () => {
           border-solid border-pink-600 border-4"
           >
             <Image
-              src={MyImage}
+              src="/MyImage1"
               width="300"
               height="300"
               className="border-solid border-gray-300 border-4 md:-ml-8 md:-mt-8 md:mb-8"

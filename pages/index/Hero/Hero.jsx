@@ -1,5 +1,5 @@
 import React from "react";
-import MyImage from "./Assets/MyImage1.jpg";
+// import MyImage from "./Assets/MyImage1.jpg";
 import Image from "next/image";
 const Hero = () => {
   return (
@@ -24,7 +24,9 @@ const Hero = () => {
           <Image
             className="object-cover"
             style={{ height: "500px" }}
-            src={MyImage}
+            src="/MyImage1.jpg"
+            width={8}
+            height={8}
           />
         </div>
       </div>

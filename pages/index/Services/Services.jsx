@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import WebIcon from "./Assets/services icons/website.png";
-import DesignIcon from "./Assets/services icons/design.png";
-import DocumentIcon from "./Assets/services icons/documentation.png";
+// import WebIcon from "./Assets/services icons/website.png";
+// import DesignIcon from "./Assets/services icons/design.png";
+// import DocumentIcon from "./Assets/services icons/documentation.png";
 const Services = () => {
   return (
     <>
@@ -17,7 +17,7 @@ const Services = () => {
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6 mt-8">
           <div className="bg-gray-900 hover:bg-pink-900 cursor-pointer h-44 flex flex-col p-4 hover:pt-2 transition duration-500 ease-in-out">
-            <Image src={WebIcon} className="w-8 h-8" />
+            <Image src="/website.png" height={8} width={8} />
             <span className="text-gray-300 font-bold my-2">
               Web Development
             </span>
@@ -27,7 +27,7 @@ const Services = () => {
             </span>
           </div>
           <div className="bg-gray-900 border-pink-600 hover:bg-pink-900 cursor-pointer h-44 flex flex-col p-4 hover:pt-2 transition duration-500 ease-in-out">
-            <Image src={DesignIcon} className="w-8 h-8" />
+            <Image src="/design.png" height={8} width={8} />
             <span className="text-gray-300 font-bold my-2">UI/UX Design</span>
             <span className="text-gray-300 text-sm leading-none">
               UI/UX design refers to the process of designing the user interface
@@ -35,7 +35,7 @@ const Services = () => {
             </span>
           </div>
           <div className="bg-gray-900 border-pink-600 hover:bg-pink-900 cursor-pointer h-44 p-4 flex flex-col hover:pt-2 transition duration-500 ease-in-out">
-            <Image src={DocumentIcon} className="w-8 h-8" />
+            <Image src="/documentation.png" height={8} width={8} />
             <span className="text-gray-300 font-bold my-2">Documentation</span>
             <span className="text-gray-300 text-sm leading-none">
               I am a full-stack web developer having 2 years of experience in
@@ -43,7 +43,7 @@ const Services = () => {
             </span>
           </div>
           <div className="bg-gray-900 border-pink-600 hover:bg-pink-900 cursor-pointer h-44 p-4 flex flex-col hover:pt-2 transition duration-500 ease-in-out">
-            <Image src={DocumentIcon} className="w-8 h-8" />
+            <Image src="/documentation.png" height={8} width={8} />
             <span className="text-gray-300 font-bold my-2">Documentation</span>
             <span className="text-gray-300 text-sm leading-none">
               I am a full-stack web developer having 2 years of experience in
@@ -51,7 +51,7 @@ const Services = () => {
             </span>
           </div>
           <div className="bg-gray-900 border-pink-600 hover:bg-pink-900 cursor-pointer h-44 p-4 flex flex-col hover:pt-2 transition duration-500 ease-in-out">
-            <Image src={DocumentIcon} className="w-8 h-8" />
+            <Image src="/documentation.png" height={8} width={8} />
             <span className="text-gray-300 font-bold my-2">Documentation</span>
             <span className="text-gray-300 text-sm leading-none">
               I am a full-stack web developer having 2 years of experience in

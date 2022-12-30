@@ -1,11 +1,11 @@
 import Image from "next/image";
 import React from "react";
-import SHImage from "./Assets/sh.jpg";
-import Two from "./Assets/R.jpeg";
-import Three from "./Assets/3.jpeg";
-import Four from "./Assets/4.jpg";
-import Five from "./Assets/5.jpg";
-import Six from "./Assets/6.jpg";
+// import SHImage from "./Assets/sh.jpg";
+// import Two from "./Assets/R.jpeg";
+// import Three from "./Assets/3.jpeg";
+// import Four from "./Assets/4.jpg";
+// import Five from "./Assets/5.jpg";
+// import Six from "./Assets/6.jpg";
 
 const Portfolio = () => {
   return (
@@ -44,22 +44,52 @@ const Portfolio = () => {
         </div>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 text-white mt-8">
           <div className="text-gray-300 h-50 cursor-pointer">
-            <Image src={SHImage} className="h-full w-full object-fill" />
+            <Image
+              src="/sh.jpg"
+              className="h-full w-full object-fill"
+              height={8}
+              width={8}
+            />
           </div>
           <div className="text-gray-300 h-44 cursor-pointer">
-            <Image src={Two} className="h-full w-full object-fill" />
+            <Image
+              src="/R.jpeg"
+              className="h-full w-full object-fill"
+              height={8}
+              width={8}
+            />
           </div>
           <div className="text-gray-300 h-44 cursor-pointer">
-            <Image src={Three} className="h-full w-full object-fill" />
+            <Image
+              src="/3.jpeg"
+              className="h-full w-full object-fill"
+              height={8}
+              width={8}
+            />
           </div>
           <div className="text-gray-300 h-44 cursor-pointer">
-            <Image src={Four} className="h-full w-full object-fill" />
+            <Image
+              src="/4.jpeg"
+              className="h-full w-full object-fill"
+              height={8}
+              width={8}
+            />
           </div>
           <div className="text-gray-300 h-44 cursor-pointer">
-            <Image src={Five} className="h-full w-full object-fill" />
+            <Image
+              src="/5.jpeg"
+              className="h-full w-full object-fill"
+              height={8}
+              width={8}
+            />
           </div>
           <div className="text-gray-300 h-44 cursor-pointer">
-            <Image src={Six} className="h-full w-full object-fill" />
+            <Image
+              src="/6.jpeg"
+              className="h-full w-full object-fill"
+              height={8}
+              width={8}
+            />
           </div>
         </div>
       </div>
