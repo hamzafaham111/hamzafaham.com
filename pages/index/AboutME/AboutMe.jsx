@@ -24,7 +24,7 @@ const AboutMe = () => {
             <div className="w-12 mr-1 mt-2 h-0 border border-b-4 border-pink-600"></div>
             <div className="w-2 mt-2 h-0 border border-b-4 border-pink-600"></div>
           </div>
-          <p className="text-gray-300 text-justify mt-2 w-62 sm:w-80 md:w-96 leading-none">
+          <p className="text-gray-300 mt-2 w-62 sm:w-80 md:w-96 leading-none">
             I'm Hamza Faham from Lahore, Paksitan. I am a software engineer
             having 2 years of experience in full stack web development. I have
             been working on some advance web designing and development tools.
