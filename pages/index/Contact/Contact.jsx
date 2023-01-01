@@ -64,7 +64,7 @@ const Contact = () => {
             <div className="flex py-2 items-center bg-gray-900 rounded-sm pl-3 my-1">
               <Image src="/ContactAssets/address.png" width="24" height="24" />
               <span className="ml-4 font-semibold w-3/5 leading-none">
-                Chitral Line, Lahore Cantt, Lahore, Punjab, Pakistan.
+                Sector C DHA Phase 6, Lahore, Pakistan
               </span>
             </div>
             <div className="flex items-center rounded-sm mt-1">

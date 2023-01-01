@@ -24,13 +24,13 @@ export default function NavBar() {
     >
       <div className="justify-between mx-auto lg:max-w-7xl md:items-center md:flex">
         <div>
-          <div className="flex items-center justify-between py-3 md:py-5 md:block">
+          <div className=" flex items-center justify-between py-3 md:py-5 md:block">
             <a href="javascript:void(0)">
               <h2 className="text-2xl font-bold text-pink-600">HF.</h2>
             </a>
             <div className="md:hidden">
               <button
-                className="p-2 text-pink-600 rounded-md outline-none"
+                className=" text-pink-600 rounded-md outline-none"
                 onClick={() => setNavbar(!navbar)}
               >
                 {navbar ? (
