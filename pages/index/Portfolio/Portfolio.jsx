@@ -13,7 +13,7 @@ const Portfolio = () => {
       <div className="px-8 sm:px-16 md:px-32 md:h-screen flex flex-col justify-center">
         <div className="flex flex-col items-start sm:w-3/4 md:w-3/4 lg:w-2/4">
           <span className="text-pink-600 font-bold h-5">What I have Done</span>
-          <spa className="text-2xl font-bold text-gray-300">My Portfolio</spa>
+          <spa className="text-3xl font-bold text-gray-300">My Portfolio</spa>
           {/* bottom border */}
           <div className="flex">
             <div className="w-12 mr-1 mt-2 h-0 border border-b-4 border-pink-600"></div>

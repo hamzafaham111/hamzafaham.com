@@ -9,7 +9,7 @@ const Services = () => {
       <div className="pb-32 md:pb-0 px-8 sm:px-16 md:px-32 md:h-screen bg-black flex flex-col justify-center">
         <div className="flex flex-col">
           <span className="text-pink-600 font-bold">What I Do</span>
-          <span className="text-gray-300 text-4xl font-bold">My Services</span>
+          <span className="text-gray-300 text-3xl font-bold">My Services</span>
           <div className="flex">
             <div className="w-12 mr-1 mt-2 h-0 border border-b-4 border-pink-600"></div>
             <div className="w-2 mt-2 h-0 border border-b-4 border-pink-600"></div>

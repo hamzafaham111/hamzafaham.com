@@ -12,8 +12,11 @@ const Hero = () => {
           </span>
           <span className="font-bold text-xl">A Software Engineer</span>
           <div>
-            <button className="border-2 border-pink-600 text-gray-300 mt-8 py-2 w-40 rounded-sm font-bold">
+            <button className="border-2 border-pink-600 bg-pink-600 text-gray-300 mt-8 py-2 w-40 rounded-sm font-bold mr-2">
               Learn More
+            </button>
+            <button className="border-2 border-pink-600 hover:bg-pink-600 duration-100 text-gray-300 mt-8 py-2 w-40 rounded-sm font-bold">
+              Download Resume
             </button>
             {/* <button className="border-2 border-pink-600 text-gray-300 mt-8 py-2 w-40 rounded-sm font-bold">
               WhatsaApp

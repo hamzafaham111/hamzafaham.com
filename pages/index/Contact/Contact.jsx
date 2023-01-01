@@ -7,8 +7,49 @@ import Image from "next/image";
 const Contact = () => {
   return (
     <div className="flex md:h-screen items-center">
-      <div className="pt-32 pb-32 md:pb-0 md:pt-0 mx-8 sm:mx-16 md:mx-32 text-gray-300 flex flex-col-reverse md:flex-row items-end">
-        <div className="md:mr-3 w-full mt-6 md:mt-0">
+      <div className="pt-32 pb-32 md:pb-0 md:pt-0 mx-8 sm:mx-16 md:mx-32 text-gray-300 flex flex-col md:flex-row items-end">
+        <div className="w-full">
+          <div className="mb-5 flex flex-col">
+            <span className="text-gray-300 text-3xl font-bold">Contact</span>
+            <div className="flex">
+              <div className="w-12 mr-1 h-0 border border-b-4 border-pink-600"></div>
+              <div className="w-2 h-0 border border-b-4 border-pink-600"></div>
+            </div>
+            <span className="leading-none my-3">
+              You wanna say something? feel free to contact me🙂
+            </span>
+          </div>
+          <input
+            className="w-full p-2 text-gray-400 font-semibold bg-gray-900 outline-none my-1"
+            type="text"
+            placeholder="Full Name"
+          />
+          <input
+            className="w-full p-2 text-gray-400 font-semibold bg-gray-900 outline-none my-1"
+            type="text"
+            placeholder="Email"
+          />
+          <textarea
+            className="w-full p-2 text-gray-400 font-semibold bg-gray-900 outline-none my-1"
+            type="text"
+            rows={5}
+            placeholder="write your message"
+          />
+          <button className="w-full bg-pink-600 p-3 font-bold flex items-center justify-center">
+            <span>Send Message</span>
+          </button>
+        </div>
+        <div className="md:ml-3 w-full mt-6 md:mt-0">
+          {/* <div className="mb-5 flex flex-col">
+            <span className="text-gray-300 text-3xl font-bold">Contact</span>
+            <div className="flex">
+              <div className="w-12 mr-1 h-0 border border-b-4 border-pink-600"></div>
+              <div className="w-2 h-0 border border-b-4 border-pink-600"></div>
+            </div>
+            <span className="leading-none my-3">
+              You wanna say something? feel free to contact me🙂
+            </span>
+          </div> */}
           <div className="flex flex-col">
             <div className="flex py-2 item-center bg-gray-900 rounded-sm pl-3 my-1">
               <Image src="/ContactAssets/email.png" width="24" height="24" />
@@ -38,39 +79,6 @@ const Contact = () => {
               ></iframe>
             </div>
           </div>
-          <div></div>
-        </div>
-        <div className="w-full">
-          <div className="mb-5 flex flex-col">
-            <span className="text-gray-300 text-3xl font-bold">Contact</span>
-            <div className="flex">
-              <div className="w-12 mr-1 h-0 border border-b-4 border-pink-600"></div>
-              <div className="w-2 h-0 border border-b-4 border-pink-600"></div>
-            </div>
-            <span className="leading-none my-3">
-              You wanna say something? feel free to contact me🙂
-            </span>
-          </div>
-
-          <input
-            className="w-full p-2 text-gray-400 font-semibold bg-gray-900 outline-none my-1"
-            type="text"
-            placeholder="Full Name"
-          />
-          <input
-            className="w-full p-2 text-gray-400 font-semibold bg-gray-900 outline-none my-1"
-            type="text"
-            placeholder="Email"
-          />
-          <textarea
-            className="w-full p-2 text-gray-400 font-semibold bg-gray-900 outline-none my-1"
-            type="text"
-            rows={5}
-            placeholder="write your message"
-          />
-          <button className="w-2/4 bg-pink-600 p-3 font-bold flex items-center justify-center">
-            <span>Send Message</span>
-          </button>
         </div>
       </div>
     </div>

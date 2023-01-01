@@ -1,5 +1,9 @@
 import React from "react";
-
+import LinkedinIcon from "./Assets/linkedin.svg";
+import FacebookIcon from "./Assets/facebook.svg";
+import InstagramIcon from "./Assets/instagram.svg";
+import GitIcon from "./Assets/github.svg";
+import Image from "next/image";
 const Footer = () => {
   return (
     <div>
@@ -15,13 +19,21 @@ const Footer = () => {
                   color: "white",
                 }}
               >
+                {/* <a
+                  href="/"
+                  target="blank"
+                  aria-label="github"
+                  className="hover:text-primary mx-4"
+                >
+                  <Image height={22} width={22} src={GitIcon} />
+                </a> */}
                 <a
                   href="/"
                   target="blank"
                   aria-label="github"
                   className="hover:text-primary mx-4"
                 >
-                  facebook
+                  <Image height={22} width={22} src={FacebookIcon} />
                 </a>
                 <a
                   href="/"
@@ -29,7 +41,7 @@ const Footer = () => {
                   aria-label="twitter"
                   className="hover:text-primary mx-4"
                 >
-                  instagram
+                  <Image height={22} width={22} src={InstagramIcon} />
                 </a>
                 <a
                   href="/"
@@ -37,7 +49,7 @@ const Footer = () => {
                   aria-label="medium"
                   className="hover:text-primary mx-4"
                 >
-                  linkedin
+                  <Image height={22} width={22} src={LinkedinIcon} />
                 </a>
               </div>
 
@@ -188,7 +200,7 @@ const Footer = () => {
                 </div> */}
                 <div className="flex justify-center border-t border-cyan-800 py-8 text-gray-200">
                   <span>
-                    © tailus 2003 - <span id="year" />
+                    © hamzafaham 2023 - <span id="year" />
                   </span>
                   <span>All right reserved</span>
                 </div>
