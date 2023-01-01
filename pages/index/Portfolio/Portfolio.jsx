@@ -47,6 +47,7 @@ const Portfolio = () => {
             <Image
               src="/PortfolioAssets/sh.jpg"
               className="h-full w-full object-fill"
+              alt="Image"
               height={800}
               width={800}
             />
@@ -55,6 +56,7 @@ const Portfolio = () => {
             <Image
               src="/PortfolioAssets/R.jpeg"
               className="h-full w-full object-fill"
+              alt="Image"
               height={800}
               width={800}
             />
@@ -63,6 +65,7 @@ const Portfolio = () => {
             <Image
               src="/PortfolioAssets/3.jpeg"
               className="h-full w-full object-fill"
+              alt="Image"
               height={800}
               width={800}
             />
@@ -71,6 +74,7 @@ const Portfolio = () => {
             <Image
               src="/PortfolioAssets/4.jpg"
               className="h-full w-full object-fill"
+              alt="Image"
               height={800}
               width={800}
             />
@@ -79,6 +83,7 @@ const Portfolio = () => {
             <Image
               src="/PortfolioAssets/5.jpg"
               className="h-full w-full object-fill"
+              alt="Image"
               height={800}
               width={800}
             />
@@ -87,6 +92,7 @@ const Portfolio = () => {
             <Image
               src="/PortfolioAssets/6.jpg"
               className="h-full w-full object-fill"
+              alt="Image"
               height={800}
               width={800}
             />
