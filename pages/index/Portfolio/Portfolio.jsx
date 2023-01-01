@@ -45,7 +45,7 @@ const Portfolio = () => {
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 text-white mt-8">
           <div className="text-gray-300 h-50 cursor-pointer">
             <Image
-              src="/PortfolioAssets/sh.jpg"
+              src="/PortfolioAssets/3.jpeg"
               className="h-full w-full object-fill"
               alt="Image"
               height={800}
