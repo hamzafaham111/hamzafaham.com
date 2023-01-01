@@ -25,7 +25,7 @@ const Services = () => {
             <span className="text-gray-300 font-bold my-2">
               Web Development
             </span>
-            <span className="text-gray-300 text-sm">
+            <span className="text-gray-300 text-sm leading-4">
               I am a full-stack web developer having 2 years of experience in
               MERN stack.
             </span>
@@ -37,7 +37,7 @@ const Services = () => {
               width={30}
             />
             <span className="text-gray-300 font-bold my-2">UI/UX Design</span>
-            <span className="text-gray-300 text-sm">
+            <span className="text-gray-300 text-sm leading-4">
               UI/UX design refers to the process of designing the user interface
               of a product.
             </span>
@@ -49,7 +49,7 @@ const Services = () => {
               width={30}
             />
             <span className="text-gray-300 font-bold my-2">Documentation</span>
-            <span className="text-gray-300 text-sm">
+            <span className="text-gray-300 text-sm leading-4">
               I am a full-stack web developer having 2 years of experience in
               MERN stack.
             </span>
@@ -61,7 +61,7 @@ const Services = () => {
               width={30}
             />
             <span className="text-gray-300 font-bold my-2">Documentation</span>
-            <span className="text-gray-300 text-sm">
+            <span className="text-gray-300 text-sm leading-4">
               I am a full-stack web developer having 2 years of experience in
               MERN stack.
             </span>
@@ -73,7 +73,7 @@ const Services = () => {
               width={30}
             />
             <span className="text-gray-300 font-bold my-2">Documentation</span>
-            <span className="text-gray-300 text-sm">
+            <span className="text-gray-300 text-sm leading-4">
               I am a full-stack web developer having 2 years of experience in
               MERN stack.
             </span>

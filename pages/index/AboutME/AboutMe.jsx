@@ -7,7 +7,7 @@ const AboutMe = () => {
         <div className="border">
           <div
             className="
-          border-solid border-pink-600 border-4"
+           border-pink-600 border-4"
           >
             <Image
               src="/AboutAssets/MyImage1.jpg"

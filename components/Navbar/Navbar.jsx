@@ -6,7 +6,7 @@ export default function NavBar() {
   useEffect(() => {
     function handleScroll() {
       if (window.scrollY > 50) {
-        navRef.current.style.backgroundColor = "#000000";
+        navRef.current.style.backgroundColor = "#111827";
       } else {
         navRef.current.style.backgroundColor = "transparent";
       }
