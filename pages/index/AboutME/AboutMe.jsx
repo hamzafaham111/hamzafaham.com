@@ -29,11 +29,11 @@ const AboutMe = () => {
             having 2 years of experience in full stack web development. I have
             been working on some advance web designing and development tools.
           </p>
-          <div className="mt-4">
-            <button className="border border-pink-600 px-5 py-2 bg-pink-600 text-gray-300 font-bold rounded-sm">
+          <div className="mt-4 flex flex-row">
+            <button className="border border-pink-600 px-5 py-1 bg-pink-600 text-gray-300 font-bold rounded-sm">
               Download Resume
             </button>
-            <button className="border-2 border-pink-600 px-5 py-2 text-pink-600 font-bold mt-1 ml-1 md:ml-4 rounded-sm">
+            <button className="border border-pink-600 px-5 py-1 text-pink-600 font-bold md:ml-2 rounded-sm">
               Learn More
             </button>
           </div>
