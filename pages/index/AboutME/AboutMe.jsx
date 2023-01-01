@@ -33,7 +33,7 @@ const AboutMe = () => {
             <button className="border border-pink-600 px-5 py-1 bg-pink-600 text-gray-300 font-bold rounded-sm">
               Download Resume
             </button>
-            <button className="border border-pink-600 px-5 py-1 text-pink-600 font-bold md:ml-2 rounded-sm">
+            <button className="border border-pink-600 px-5 py-1 text-pink-600 font-bold ml-2 rounded-sm">
               Learn More
             </button>
           </div>
