@@ -50,17 +50,17 @@ const Services = () => {
             />
             <span className="text-gray-300 font-bold my-2">Documentation</span>
             <span className="text-gray-300 text-sm leading-4">
-              I am a full-stack web developer having 2 years of experience in
-              MERN stack.
+              I can make your project documentation and project report, I have 2
+              years of experience in it. with less then 10% of plagerisem
             </span>
           </div>
           <div className="bg-gray-900 border-pink-600 hover:bg-pink-900 cursor-pointer h-44 p-4 flex flex-col hover:pt-2 transition duration-500 ease-in-out">
             <Image
-              src="/ServicesAssets/Icons/documentation.png"
+              src="/ServicesAssets/Icons/deployment"
               height={30}
               width={30}
             />
-            <span className="text-gray-300 font-bold my-2">Documentation</span>
+            <span className="text-gray-300 font-bold my-2">Deployment</span>
             <span className="text-gray-300 text-sm leading-4">
               I am a full-stack web developer having 2 years of experience in
               MERN stack.
