@@ -56,7 +56,7 @@ const Services = () => {
           </div>
           <div className="bg-gray-900 border-pink-600 hover:bg-pink-900 cursor-pointer h-44 p-4 flex flex-col hover:pt-2 transition duration-500 ease-in-out">
             <Image
-              src="/ServicesAssets/Icons/deployment"
+              src="/ServicesAssets/Icons/deployment.png"
               height={30}
               width={30}
             />
@@ -66,7 +66,7 @@ const Services = () => {
               MERN stack.
             </span>
           </div>
-          <div className="bg-gray-900 border-pink-600 hover:bg-pink-900 cursor-pointer h-44 p-4 flex flex-col hover:pt-2 transition duration-500 ease-in-out">
+          {/* <div className="bg-gray-900 border-pink-600 hover:bg-pink-900 cursor-pointer h-44 p-4 flex flex-col hover:pt-2 transition duration-500 ease-in-out">
             <Image
               src="/ServicesAssets/Icons/documentation.png"
               height={30}
@@ -77,7 +77,7 @@ const Services = () => {
               I am a full-stack web developer having 2 years of experience in
               MERN stack.
             </span>
-          </div>
+          </div> */}
         </div>
       </div>
     </>
