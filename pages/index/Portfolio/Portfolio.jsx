@@ -43,14 +43,16 @@ const Portfolio = () => {
           </div>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 text-white mt-8">
-          <div className="text-gray-300 h-50 cursor-pointer">
-            <Image
-              src="/PortfolioAssets/3.jpeg"
-              className="h-full w-full object-fill"
-              alt="Image"
-              height={800}
-              width={800}
-            />
+          <div className="text-gray-300 h-44 cursor-pointer">
+            <a href="https://www.repairkitchenappliance.com" blank={true}>
+              <Image
+                src="/PortfolioAssets/repair-kitchen-appliance.JPG"
+                className="h-full w-full object-fill"
+                alt="Image"
+                height={800}
+                width={800}
+              />
+            </a>
           </div>
           <div className="text-gray-300 h-44 cursor-pointer">
             <Image
