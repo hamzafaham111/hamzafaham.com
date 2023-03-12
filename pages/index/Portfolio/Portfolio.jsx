@@ -55,13 +55,15 @@ const Portfolio = () => {
             </a>
           </div>
           <div className="text-gray-300 h-44 cursor-pointer">
-            <Image
-              src="/PortfolioAssets/R.jpeg"
-              className="h-full w-full object-fill"
-              alt="Image"
-              height={800}
-              width={800}
-            />
+            <a href="https://www.repairkitchenappliance.com" blank={true}>
+              <Image
+                src="/PortfolioAssets/safeDrive.JPG"
+                className="h-full w-full object-fill"
+                alt="Image"
+                height={800}
+                width={800}
+              />
+            </a>
           </div>
           <div className="text-gray-300 h-44 cursor-pointer">
             <Image

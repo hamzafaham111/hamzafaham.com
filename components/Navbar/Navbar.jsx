@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-
+import { Link } from "react-scroll";
 export default function NavBar() {
   const [navbar, setNavbar] = useState(false);
   const navRef = useRef(null);
@@ -73,7 +73,7 @@ export default function NavBar() {
             }`}
           >
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-              <li className="text-gray-300 font-medium hover:text-pink-600">
+              <li className="text-gray-300 font-bold hover:text-pink-600">
                 <a href="javascript:void(0)">Home</a>
               </li>
               <li className="text-gray-300 font-medium hover:text-pink-600">
