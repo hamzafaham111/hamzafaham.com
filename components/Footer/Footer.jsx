@@ -36,17 +36,17 @@ const Footer = () => {
                   <Image height={22} width={22} src={FacebookIcon} />
                 </a>
                 <a
-                  href="/www.linkedin.com/in/hamza-faham-87a124201/"
+                  href="https://www.linkedin.com/in/hamza-faham-87a124201/"
                   target="blank"
-                  aria-label="linkedin"
+                  aria-label="instagram"
                   className="hover:text-primary mx-4"
                 >
                   <Image height={22} width={22} src={InstagramIcon} />
                 </a>
                 <a
-                  href="/"
+                  href="https://www.linkedin.com/in/hamza-faham-87a124201/"
                   target="blank"
-                  aria-label="medium"
+                  aria-label="linkedin"
                   className="hover:text-primary mx-4"
                 >
                   <Image height={22} width={22} src={LinkedinIcon} />
