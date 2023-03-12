@@ -28,7 +28,7 @@ const Footer = () => {
                   <Image height={22} width={22} src={GitIcon} />
                 </a> */}
                 <a
-                  href="/"
+                  href="https://www.facebook.com/hamza.khanusfzi/"
                   target="blank"
                   aria-label="github"
                   className="hover:text-primary mx-4"
