@@ -36,7 +36,7 @@ const Footer = () => {
                   <Image height={22} width={22} src={FacebookIcon} />
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/hamza-faham-87a124201/"
+                  href="https://www.instagram.com/hamzafaham/"
                   target="blank"
                   aria-label="instagram"
                   className="hover:text-primary mx-4"
