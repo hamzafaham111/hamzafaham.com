@@ -42,6 +42,18 @@ const Services = () => {
               of a product.
             </span>
           </div>
+          <div className="bg-gray-900 border-pink-600 hover:bg-pink-900 cursor-pointer h-44 flex flex-col p-4 hover:pt-2 transition duration-500 ease-in-out">
+            <Image
+              src="/ServicesAssets/Icons/system-design.png"
+              height={30}
+              width={30}
+            />
+            <span className="text-gray-300 font-bold my-2">System Design</span>
+            <span className="text-gray-300 text-sm leading-4">
+              I have been providing system design services (HLD & LLD) for the
+              past 2 years as a freeancer.
+            </span>
+          </div>
           <div className="bg-gray-900 border-pink-600 hover:bg-pink-900 cursor-pointer h-44 p-4 flex flex-col hover:pt-2 transition duration-500 ease-in-out">
             <Image
               src="/ServicesAssets/Icons/documentation.png"
