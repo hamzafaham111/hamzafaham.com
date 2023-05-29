@@ -39,7 +39,7 @@ const Contact = () => {
             <span>Send Message</span>
           </button>
         </div>
-        <div className="md:ml-3 w-full mt-6 md:mt-0">
+        <div className="hidden sm:block md:ml-3 w-full mt-6 md:mt-0">
           {/* <div className="mb-5 flex flex-col">
             <span className="text-gray-300 text-3xl font-bold">Contact</span>
             <div className="flex">
