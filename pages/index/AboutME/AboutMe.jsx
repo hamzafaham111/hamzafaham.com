@@ -21,7 +21,7 @@ const AboutMe = () => {
               src="/AboutAssets/MyImage1.jpg"
               width="300"
               height="300"
-              className="md:border-solid md:border-gray-300 md:border-4 md:-ml-8 md:-mt-8 md:mb-8"
+              className="md:border-solid md:border-gray-300 md:border-4 md:-ml-8 hover:ml-0 duration-500 md:-mt-8 hover:mt-0 md:mb-8 hover:mb-0"
             />
           </div>
         </div>

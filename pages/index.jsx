@@ -43,7 +43,7 @@ const Home = () => {
         />
       </div> */}
         {/* About Me Section */}
-        {/* <AboutMe /> */}
+        <AboutMe />
         {/* Services Section */}
         <Services />
         {/* Portfolio Section */}
