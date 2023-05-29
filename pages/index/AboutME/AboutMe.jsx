@@ -21,7 +21,7 @@ const AboutMe = () => {
               src="/AboutAssets/MyImage1.jpg"
               width="300"
               height="300"
-              className="border-solid border-gray-300 border-4 md:-ml-8 md:-mt-8 md:mb-8"
+              className="md:border-solid md:border-gray-300 md:border-4 md:-ml-8 md:-mt-8 md:mb-8"
             />
           </div>
         </div>
