@@ -43,7 +43,7 @@ const Portfolio = () => {
           </div>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 text-white mt-8">
-          <div className="text-gray-300 h-44 cursor-pointer">
+          <div className="text-gray-300 h-44 cursor-pointer relative">
             <a href="https://www.repairkitchenappliance.com" blank={true}>
               <Image
                 src="/PortfolioAssets/repair-kitchen-appliance.JPG"
@@ -53,6 +53,10 @@ const Portfolio = () => {
                 width={800}
               />
             </a>
+            {/* <div className="absolute flex flex-col items-center justify-center h-full w-full bg-transparant hover:bg-gray-500 bg-opicity-50 bg-opicity-10 top-0 ">
+              <span>repairkitchenappliances</span>
+              <span>Visit</span>
+            </div> */}
           </div>
           <div className="text-gray-300 h-44 cursor-pointer">
             <a href="https://www.repairkitchenappliance.com" blank={true}>
@@ -66,14 +70,17 @@ const Portfolio = () => {
             </a>
           </div>
           <div className="text-gray-300 h-44 cursor-pointer">
-            <Image
-              src="/PortfolioAssets/3.jpeg"
-              className="h-full w-full object-fill"
-              alt="Image"
-              height={800}
-              width={800}
-            />
+            <a href="https://nelamhobe.vercel.app/home" blank={true}>
+              <Image
+                src="/PortfolioAssets/nelamhobe.PNG"
+                className="h-full w-full object-fill"
+                alt="Image"
+                height={800}
+                width={800}
+              />
+            </a>
           </div>
+         
           <div className="text-gray-300 h-44 cursor-pointer">
             <Image
               src="/PortfolioAssets/4.jpg"

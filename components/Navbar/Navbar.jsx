@@ -22,7 +22,7 @@ export default function NavBar() {
       ref={navRef}
       className="w-full fixed bg-transparent px-8 sm:px-16 md:px-32 z-10"
     >
-      <div className="justify-between mx-auto lg:max-w-7xl md:items-center md:flex">
+      <div className="justify-between mx-auto max-w-7xl md:items-center md:flex">
         <div>
           <div className=" flex items-center justify-between py-3 md:py-5 md:block">
             <a href="javascript:void(0)">
