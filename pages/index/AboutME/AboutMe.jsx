@@ -1,6 +1,14 @@
 import React from "react";
 import Image from "next/image";
 const AboutMe = () => {
+  const handleDownload = () => {
+    // Replace 'path/to/resume.pdf' with the actual path to your PDF resume
+    const resumePath = 'Hamza_Faham_Resume.pdf';
+    const link = document.createElement('a');
+    link.href = resumePath;
+    link.download = 'Hamza_Faham_Resume.pdf';
+    link.click();
+  };
   return (
     <>
       <div className="pt-32 pb-32 md:pb-0 md:pt-0 h-auto md:h-screen mx-8 sm:mx-16 md:mx-32 bg-black flex items-center justify-center flex-col md:flex-row ">
@@ -30,7 +38,7 @@ const AboutMe = () => {
             been working on some advance web designing and development tools.
           </p>
           <div className="mt-4 flex flex-row">
-            <button className="border border-pink-600 px-5 py-1 bg-pink-600 text-gray-300 font-bold rounded-sm">
+            <button onClick={handleDownload} className="border border-pink-600 px-5 py-1 bg-pink-600 text-gray-300 font-bold rounded-sm">
               Download Resume
             </button>
             <button className="border border-pink-600 px-5 py-1 text-pink-600 font-bold ml-2 rounded-sm">

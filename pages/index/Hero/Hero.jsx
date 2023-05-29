@@ -2,6 +2,14 @@ import React from "react";
 // import MyImage from "./Assets/MyImage1.jpg";
 import Image from "next/image";
 const Hero = () => {
+  const handleDownload = () => {
+    // Replace 'path/to/resume.pdf' with the actual path to your PDF resume
+    const resumePath = 'Hamza_Faham_Resume.pdf';
+    const link = document.createElement('a');
+    link.href = resumePath;
+    link.download = 'Hamza_Faham_Resume.pdf';
+    link.click();
+  };
   return (
     <>
       <div className="h-screen mx-8 sm:mx-16 md:mx-32  flex flex-col-reverse md:flex-row items-center justify-center">
@@ -15,7 +23,7 @@ const Hero = () => {
             <button className="border-2 border-pink-600 bg-pink-600 text-gray-300 mt-8 py-2 w-40 rounded-sm font-bold mr-2">
               Learn More
             </button>
-            <button className="border-2 border-pink-600 hover:bg-pink-600 duration-100 text-gray-300 mt-8 py-2 w-40 rounded-sm font-bold">
+            <button onClick={handleDownload} className="border-2 border-pink-600 hover:bg-pink-600 duration-100 text-gray-300 mt-8 py-2 w-40 rounded-sm font-bold">
               Download Resume
             </button>
             {/* <button className="border-2 border-pink-600 text-gray-300 mt-8 py-2 w-40 rounded-sm font-bold">
