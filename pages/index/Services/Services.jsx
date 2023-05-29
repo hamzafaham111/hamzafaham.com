@@ -6,7 +6,7 @@ import Image from "next/image";
 const Services = () => {
   return (
     <>
-      <div className="pb-32 md:pb-0 px-4 sm:px-8 md:px-32 md:h-screen bg-black flex flex-col justify-center">
+      <div className="py-40 md:py-0 px-4 sm:px-8 md:px-32 md:h-screen bg-black flex flex-col justify-center">
         <div className="flex flex-col">
           <span className="text-pink-600 font-bold">What I Do</span>
           <span className="text-gray-300 text-3xl font-bold">My Services</span>
