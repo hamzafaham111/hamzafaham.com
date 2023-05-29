@@ -11,7 +11,7 @@ const AboutMe = () => {
   };
   return (
     <>
-      <div className="pt-32 pb-32 md:pb-0 md:pt-0 h-auto md:h-screen mx-8 sm:mx-16 md:mx-32 bg-black flex items-center justify-center flex-col md:flex-row ">
+      <div className="pt-32 pb-32 md:pb-0 md:pt-0 h-auto md:h-screen px-4 sm:px-8 md:px-32 bg-black flex items-center justify-center flex-col md:flex-row ">
         <div className="border">
           <div
             className="

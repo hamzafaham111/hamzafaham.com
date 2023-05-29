@@ -20,7 +20,7 @@ export default function NavBar() {
   return (
     <nav
       ref={navRef}
-      className="w-full fixed bg-transparent px-8 sm:px-16 md:px-32 z-10"
+      className="w-full fixed bg-transparent px-4 sm:px-8 md:px-32 z-10"
     >
       <div className="justify-between mx-auto max-w-7xl md:items-center md:flex">
         <div>
