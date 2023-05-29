@@ -12,10 +12,10 @@ const AboutMe = () => {
   return (
     <>
       <div className="pt-32 pb-32 md:pb-0 md:pt-0 h-auto md:h-screen px-4 sm:px-8 md:px-32 bg-black flex items-center justify-center flex-col md:flex-row ">
-        <div className="border">
+        <div className="md:border">
           <div
             className="
-           border-pink-600 border-4"
+          md:border-pink-600 md:border-4"
           >
             <Image
               src="/AboutAssets/MyImage1.jpg"
