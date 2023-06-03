@@ -1,10 +1,37 @@
-import React from "react";
+import React,{useState} from "react";
 import Image from "next/image";
 // import EmailIcon from "./Assets/email.png";
 // import PhoneIcon from "./Assets/phone.png";
 // import AddressIcon from "./Assets/address.png";
 
 const Contact = () => {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    try {
+      const response = await fetch("/api/sendEmail", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ name, email, message }),
+      });
+
+      if (response.ok) {
+        // Email sent successfully
+        alert("Email sent");
+      } else {
+        // Failed to send email
+        alert("Failed to send email");
+      }
+    } catch (error) {
+      console.error("An error occurred", error);
+    }
+  };
   return (
     <div className="flex md:h-screen items-center">
       <div className="w-full pt-32 pb-32 md:pb-0 md:pt-0 px-4 sm:px-8 md:px-32 text-gray-300 flex flex-col md:flex-row items-end">
@@ -23,33 +50,26 @@ const Contact = () => {
             className="w-full p-2 text-gray-400 font-semibold bg-gray-900 outline-none my-1"
             type="text"
             placeholder="Full Name"
+            onChange={(e)=>{setName(e.target.value)}}
           />
           <input
             className="w-full p-2 text-gray-400 font-semibold bg-gray-900 outline-none my-1"
             type="text"
             placeholder="Email"
+            onChange={(e)=>{setEmail(e.target.value)}}
           />
           <textarea
             className="w-full p-2 text-gray-400 font-semibold bg-gray-900 outline-none my-1"
             type="text"
             rows={5}
             placeholder="write your message"
+            onChange={(e)=>{setMessage(e.target.value)}}
           />
-          <button className="w-full bg-pink-600 p-3 font-bold flex items-center justify-center">
+          <button onClick={handleSubmit} className="w-full bg-pink-600 p-3 font-bold flex items-center justify-center">
             <span>Send Message</span>
           </button>
         </div>
         <div className="hidden sm:block md:ml-3 w-full mt-6 md:mt-0">
-          {/* <div className="mb-5 flex flex-col">
-            <span className="text-gray-300 text-3xl font-bold">Contact</span>
-            <div className="flex">
-              <div className="w-12 mr-1 h-0 border border-b-4 border-pink-600"></div>
-              <div className="w-2 h-0 border border-b-4 border-pink-600"></div>
-            </div>
-            <span className="leading-none my-3">
-              You wanna say something? feel free to contact me🙂
-            </span>
-          </div> */}
           <div className="flex flex-col">
             <div className="flex py-2 item-center bg-gray-900 rounded-sm pl-3 my-1">
               <Image src="/ContactAssets/email.png" width="24" height="24" />
