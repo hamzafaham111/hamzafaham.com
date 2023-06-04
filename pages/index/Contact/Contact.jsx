@@ -31,6 +31,7 @@ const Contact = () => {
 
       if (response.ok) {
         // Email sent successfully
+        setError(false)
         setData({
           name: "",
           email: "",
