@@ -19,6 +19,8 @@ const Contact = () => {
   };
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setError(false)
+    setChange(false)
     setShowModal(true);
     try {
       const response = await fetch("/api/sendEmail", {
