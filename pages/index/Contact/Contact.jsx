@@ -114,7 +114,7 @@ const Contact = () => {
               <FadeLoader color="white" className="text-5xl" />
             </div>
           ) : !error ? (
-            <div className="bg-pink-600 md:w-80 md:h-40 w-60 h-60 flex flex-col justify-center items-center rounded-md">
+            <div className="bg-pink-600 w-80 h-40 flex flex-col justify-center items-center rounded-md">
               <div className="bg-white h-14 w-14  rounded-full p-2">
                 <img src="/ContactAssets/done.jpeg" className="rounded-full" />
               </div>
