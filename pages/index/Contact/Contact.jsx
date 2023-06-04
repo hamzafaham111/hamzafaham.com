@@ -1,37 +1,60 @@
-import React,{useState} from "react";
+import React, { useState } from "react";
 import Image from "next/image";
-// import EmailIcon from "./Assets/email.png";
-// import PhoneIcon from "./Assets/phone.png";
-// import AddressIcon from "./Assets/address.png";
-
+import DoneModal from "../../../components/Modals/DoneModal";
+import { BounceLoader, FadeLoader } from "react-spinners";
 const Contact = () => {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
-
+  const [data, setData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setData((preValue) => {
+      return {
+        ...preValue,
+        [name]: value,
+      };
+    });
+  };
   const handleSubmit = async (e) => {
     e.preventDefault();
-
+    setShowModal(true);
     try {
       const response = await fetch("/api/sendEmail", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ name, email, message }),
+        body: JSON.stringify(data),
       });
 
       if (response.ok) {
         // Email sent successfully
-        alert("Email sent");
-      } else {
+        setData({
+          name: "",
+          email: "",
+          message: "",
+        });
+        setChange(true);
+        setTimeout(()=>{
+          setShowModal(false)
+        },15000)
+      } else if(response.status == 405) {
         // Failed to send email
-        alert("Failed to send email");
+        setError(true)
+        setChange(true)
+        setTimeout(()=>{
+          setShowModal(false)
+        },15000)
       }
     } catch (error) {
       console.error("An error occurred", error);
     }
   };
+  const [showModal, setShowModal] = useState(false);
+  const [change, setChange] = useState(false);
+  const [error, setError] = useState(false)
   return (
     <div className="flex md:h-screen items-center">
       <div className="w-full pt-32 pb-32 md:pb-0 md:pt-0 px-4 sm:px-8 md:px-32 text-gray-300 flex flex-col md:flex-row items-end">
@@ -50,22 +73,31 @@ const Contact = () => {
             className="w-full p-2 text-gray-400 font-semibold bg-gray-900 outline-none my-1"
             type="text"
             placeholder="Full Name"
-            onChange={(e)=>{setName(e.target.value)}}
+            name="name"
+            value={data.name}
+            onChange={handleChange}
           />
           <input
             className="w-full p-2 text-gray-400 font-semibold bg-gray-900 outline-none my-1"
             type="text"
             placeholder="Email"
-            onChange={(e)=>{setEmail(e.target.value)}}
+            name="email"
+            value={data.email}
+            onChange={handleChange}
           />
           <textarea
             className="w-full p-2 text-gray-400 font-semibold bg-gray-900 outline-none my-1"
             type="text"
             rows={5}
             placeholder="write your message"
-            onChange={(e)=>{setMessage(e.target.value)}}
+            name="message"
+            value={data.message}
+            onChange={handleChange}
           />
-          <button onClick={handleSubmit} className="w-full bg-pink-600 p-3 font-bold flex items-center justify-center">
+          <button
+            onClick={handleSubmit}
+            className="w-full bg-pink-600 p-3 font-bold flex items-center justify-center"
+          >
             <span>Send Message</span>
           </button>
         </div>
@@ -98,6 +130,41 @@ const Contact = () => {
                 referrerpolicy="no-referrer-when-downgrade"
               ></iframe>
             </div>
+            <DoneModal isVisable={showModal}  onClose={() => {
+          setShowModal(false);
+        }}>
+              {!change ? (
+                <div>
+                  <FadeLoader color="white" className="text-5xl" />
+                </div>
+              ) : (
+                !error?
+                <div className="bg-pink-600 w-80 h-40 flex flex-col justify-center items-center rounded-md">
+                  <div className="bg-white h-14 w-14  rounded-full p-2">
+                    <img
+                      src="/ContactAssets/done.jpeg"
+                      className="rounded-full"
+                    />
+                  </div>
+                  <span className="text-white text-2xl font-bold">
+                    EMAIL SENT!
+                  </span>
+                </div>:
+                <div className="bg-pink-600 w-80 h-40 flex flex-col justify-center items-center rounded-md">
+                <div className="bg-white h-14 w-14  rounded-full p-2">
+                  <img
+                    src="/ContactAssets/cross.jpeg"
+                    className="rounded-full"
+                  />
+                </div>
+                <span className="text-white text-2xl font-bold">
+                  Some Problem
+                </span>
+                <span className="text-white font-bold upper-case">Try Again Later</span>
+              </div>
+
+              )}
+            </DoneModal>
           </div>
         </div>
       </div>

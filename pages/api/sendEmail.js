@@ -1,9 +1,11 @@
 import nodemailer from 'nodemailer';
 
 export default async function handler(req, res) {
-  if (req.method === 'POST') {
     const { name, email, message } = req.body;
-console.log("got it");
+
+    if(!name || !email || !message){
+      res.status(405).json({ error: 'Method not allowed' });
+    }else{
     // Create a transporter with your email service's SMTP settings
     const transporter = nodemailer.createTransport({
       service: 'Gmail',
@@ -28,7 +30,5 @@ console.log("got it");
     } catch (error) {
       res.status(500).json({ error: 'Failed to send email' });
     }
-  } else {
-    res.status(405).json({ error: 'Method not allowed' });
   }
 }
