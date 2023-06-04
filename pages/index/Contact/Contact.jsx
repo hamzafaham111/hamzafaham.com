@@ -37,16 +37,16 @@ const Contact = () => {
           message: "",
         });
         setChange(true);
-        setTimeout(()=>{
-          setShowModal(false)
-        },15000)
-      } else if(response.status == 405) {
+        setTimeout(() => {
+          setShowModal(false);
+        }, 15000);
+      } else if (response.status == 405) {
         // Failed to send email
-        setError(true)
-        setChange(true)
-        setTimeout(()=>{
-          setShowModal(false)
-        },15000)
+        setError(true);
+        setChange(true);
+        setTimeout(() => {
+          setShowModal(false);
+        }, 15000);
       }
     } catch (error) {
       console.error("An error occurred", error);
@@ -54,7 +54,7 @@ const Contact = () => {
   };
   const [showModal, setShowModal] = useState(false);
   const [change, setChange] = useState(false);
-  const [error, setError] = useState(false)
+  const [error, setError] = useState(false);
   return (
     <div className="flex md:h-screen items-center">
       <div className="w-full pt-32 pb-32 md:pb-0 md:pt-0 px-4 sm:px-8 md:px-32 text-gray-300 flex flex-col md:flex-row items-end">
@@ -101,6 +101,39 @@ const Contact = () => {
             <span>Send Message</span>
           </button>
         </div>
+        {/* Model Placed Down Here */}
+        <DoneModal
+          isVisable={showModal}
+          onClose={() => {
+            setShowModal(false);
+          }}
+        >
+          {!change ? (
+            <div>
+              <FadeLoader color="white" className="text-5xl" />
+            </div>
+          ) : !error ? (
+            <div className="bg-pink-600 md:w-80 md:h-40 flex flex-col justify-center items-center rounded-md">
+              <div className="bg-white h-14 w-14  rounded-full p-2">
+                <img src="/ContactAssets/done.jpeg" className="rounded-full" />
+              </div>
+              <span className="text-white text-2xl font-bold">EMAIL SENT!</span>
+            </div>
+          ) : (
+            <div className="bg-pink-600 w-80 h-40 flex flex-col justify-center items-center rounded-md">
+              <div className="bg-white h-14 w-14  rounded-full p-2">
+                <img src="/ContactAssets/cross.jpeg" className="rounded-full" />
+              </div>
+              <span className="text-white text-2xl font-bold">
+                Some Problem
+              </span>
+              <span className="text-white font-bold upper-case">
+                Try Again Later
+              </span>
+            </div>
+          )}
+        </DoneModal>
+        {/* Model Placed Up There */}
         <div className="hidden sm:block md:ml-3 w-full mt-6 md:mt-0">
           <div className="flex flex-col">
             <div className="flex py-2 item-center bg-gray-900 rounded-sm pl-3 my-1">
@@ -130,41 +163,6 @@ const Contact = () => {
                 referrerpolicy="no-referrer-when-downgrade"
               ></iframe>
             </div>
-            <DoneModal isVisable={showModal}  onClose={() => {
-          setShowModal(false);
-        }}>
-              {!change ? (
-                <div>
-                  <FadeLoader color="white" className="text-5xl" />
-                </div>
-              ) : (
-                !error?
-                <div className="bg-pink-600 w-80 h-40 flex flex-col justify-center items-center rounded-md">
-                  <div className="bg-white h-14 w-14  rounded-full p-2">
-                    <img
-                      src="/ContactAssets/done.jpeg"
-                      className="rounded-full"
-                    />
-                  </div>
-                  <span className="text-white text-2xl font-bold">
-                    EMAIL SENT!
-                  </span>
-                </div>:
-                <div className="bg-pink-600 w-80 h-40 flex flex-col justify-center items-center rounded-md">
-                <div className="bg-white h-14 w-14  rounded-full p-2">
-                  <img
-                    src="/ContactAssets/cross.jpeg"
-                    className="rounded-full"
-                  />
-                </div>
-                <span className="text-white text-2xl font-bold">
-                  Some Problem
-                </span>
-                <span className="text-white font-bold upper-case">Try Again Later</span>
-              </div>
-
-              )}
-            </DoneModal>
           </div>
         </div>
       </div>
