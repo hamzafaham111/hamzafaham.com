@@ -59,7 +59,7 @@ const Portfolio = () => {
             </div> */}
           </div>
           <div className="text-gray-300 h-44 cursor-pointer">
-            <a href="https://www.repairkitchenappliance.com" blank={true}>
+            <a href="https://www.smartsafedrivers.com" blank={true}>
               <Image
                 src="/PortfolioAssets/safeDrive.JPG"
                 className="h-full w-full object-fill"
