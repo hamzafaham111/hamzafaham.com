@@ -25,104 +25,104 @@ const Skills = () => {
           </span>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6 mt-8">
-          <div className="flex flex-row items-center justify-between bg-gray-800 p-2 border-l-4 border-orange-500">
+          <div className="flex flex-row items-center justify-between bg-gray-800 p-2 border-l-4 border-pink-500">
             <div className="flex flex-row items-center ">
             <snap>
               <Image src="/SkillsAssets/HTML.png" height={25} width={25} />
             </snap>
-            <snap className="text-gray-300 text-lg ml-1 font-bold">HTML</snap>
+            <snap className="text-gray-300 text-sm md:text-lg ml-1 font-bold">HTML</snap>
             </div>
-            <snap className="text-sm text-gray-300 font-bold">2 YEARS</snap>
+            <snap className="text-sm text-orange-500 font-bold">9/10</snap>
           </div>
 
-          <div className="flex flex-row items-center justify-between bg-gray-800 p-2 border-l-4 border-blue-500">
+          <div className="flex flex-row items-center justify-between bg-gray-800 p-2 border-l-4 border-pink-500">
             <div className="flex flex-row items-center ">
             <snap>
               <Image src="/SkillsAssets/CSS.png" height={25} width={25} />
             </snap>
-            <snap className="text-gray-300 text-lg ml-1 font-bold">CSS</snap>
+            <snap className="text-gray-300 text-sm md:text-lg ml-1 font-bold">CSS</snap>
             </div>
-            <snap className="text-sm text-blue-500 font-bold">2 YEARS</snap>
+            <snap className="text-sm text-blue-500 font-bold">9/10</snap>
           </div>
 
-          <div className="flex flex-row items-center justify-between bg-gray-800 p-2 border-l-4 border-yellow-500">
+          <div className="flex flex-row items-center justify-between bg-gray-800 p-2 border-l-4 border-pink-500">
             <div className="flex flex-row items-center ">
             <snap>
               <Image src="/SkillsAssets/JS.png" height={25} width={25} />
             </snap>
-            <snap className="text-gray-300 text-lg ml-1 font-bold">Javascript</snap>
+            <snap className="text-gray-300 text-sm md:text-lg ml-1 font-bold">Javascript</snap>
             </div>
             <snap className="text-sm text-yellow-500 font-bold">8/10</snap>
           </div>
 
 
-          <div className="flex flex-row items-center justify-between bg-gray-800 p-2 border-l-4 border-violet-600">
+          <div className="flex flex-row items-center justify-between bg-gray-800 p-2 border-l-4 border-pink-600">
             <div className="flex flex-row items-center ">
             <snap>
               <Image src="/SkillsAssets/Bootstrap.png" height={25} width={25} />
             </snap>
-            <snap className="text-gray-300 text-lg ml-1 font-bold">Bootstrap</snap>
+            <snap className="text-gray-300 text-sm md:text-lg ml-1 font-bold">Bootstrap</snap>
             </div>
             <snap className="text-sm text-violet-600 font-bold">8/10</snap>
           </div>
 
 
-          <div className="flex flex-row items-center justify-between bg-gray-800 p-2 border-l-4 border-violet-800">
+          <div className="flex flex-row items-center justify-between bg-gray-800 p-2 border-l-4 border-pink-500">
             <div className="flex flex-row items-center ">
             <snap>
               <Image src="/SkillsAssets/React js.png" height={25} width={25} />
             </snap>
-            <snap className="text-gray-300 text-lg ml-1 font-bold">React js</snap>
+            <snap className="text-gray-300 text-sm md:text-lg ml-1 font-bold">React js</snap>
             </div>
             <snap className="text-sm text-violet-700 font-bold">7/10</snap>
           </div>
 
-          <div className="flex flex-row items-center justify-between bg-gray-800 p-2 border-l-4 border-emerald-600">
+          <div className="flex flex-row items-center justify-between bg-gray-800 p-2 border-l-4 border-pink-500">
             <div className="flex flex-row items-center ">
             <snap>
               <Image src="/SkillsAssets/Node js.png" height={25} width={25} />
             </snap>
-            <snap className="text-gray-300 text-lg ml-1 font-bold">Node js</snap>
+            <snap className="text-gray-300 text-sm md:text-lg ml-1 font-bold">Node js</snap>
             </div>
             <snap className="text-sm text-emerald-600 font-bold">7/10</snap>
           </div>
 
-          <div className="flex flex-row items-center justify-between bg-gray-800 p-2 border-l-4 border-gray-400">
+          <div className="flex flex-row items-center justify-between bg-gray-800 p-2 border-l-4 border-pink-500">
             <div className="flex flex-row items-center ">
             <snap>
               <Image src="/SkillsAssets/Express js.png" height={25} width={25} />
             </snap>
-            <snap className="text-gray-300 text-lg ml-1 font-bold">Express js</snap>
+            <snap className="text-gray-300 text-sm md:text-lg ml-1 font-bold">Express js</snap>
             </div>
             <snap className="text-sm text-gray-400 font-bold">7/10</snap>
           </div>
 
-          <div className="flex flex-row items-center justify-between bg-gray-800 p-2 border-l-4 border-emerald-500">
+          <div className="flex flex-row items-center justify-between bg-gray-800 p-2 border-l-4 border-pink-500">
             <div className="flex flex-row items-center ">
             <snap>
               <Image src="/SkillsAssets/MongoDB.png" height={25} width={25} />
             </snap>
-            <snap className="text-gray-300 text-lg ml-1 font-bold">MongoDB</snap>
+            <snap className="text-gray-300 text-sm md:text-lg ml-1 font-bold">MongoDB</snap>
             </div>
             <snap className="text-sm text-emerald-500 font-bold">7/10</snap>
           </div>
 
-          <div className="flex flex-row items-center justify-between bg-gray-800 p-2 border-l-4 border-red-400">
+          <div className="flex flex-row items-center justify-between bg-gray-800 p-2 border-l-4 border-pink-500">
             <div className="flex flex-row items-center ">
             <snap>
               <Image src="/SkillsAssets/MySQL.png" height={25} width={25} />
             </snap>
-            <snap className="text-gray-300 text-lg ml-1 font-bold">MySQL</snap>
+            <snap className="text-gray-300 text-sm md:text-lg ml-1 font-bold">MySQL</snap>
             </div>
             <snap className="text-sm text-red-400 font-bold">7/10</snap>
           </div>
 
-          <div className="flex flex-row items-center justify-between bg-gray-800 p-2 border-l-4 border-red-500">
+          <div className="flex flex-row items-center justify-between bg-gray-800 p-2 border-l-4 border-pink-500">
             <div className="flex flex-row items-center ">
             <snap>
               <Image src="/SkillsAssets/Git.png" height={25} width={25} />
             </snap>
-            <snap className="text-gray-300 text-lg ml-1 font-bold">GitHub</snap>
+            <snap className="text-gray-300 text-sm md:text-lg ml-1 font-bold">GitHub</snap>
             </div>
             <snap className="text-sm text-red-500 font-bold">7/10</snap>
           </div>
