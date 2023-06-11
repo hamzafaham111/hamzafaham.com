@@ -9,6 +9,7 @@ import AboutMe from "./index/AboutME/AboutMe";
 import Services from "./index/Services/Services";
 import Portfolio from "./index/Portfolio/Portfolio";
 import Contact from "./index/Contact/Contact";
+import Skills from "./index/Skills/Skills";
 const Home = () => {
   return (
     <>
@@ -46,6 +47,8 @@ const Home = () => {
         <AboutMe />
         {/* Services Section */}
         <Services />
+        {/* Skills Section */}
+        <Skills/>
         {/* Portfolio Section */}
         <Portfolio />
         {/* Contact Section */}

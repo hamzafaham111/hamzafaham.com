@@ -83,11 +83,14 @@ export default function NavBar() {
                 <a href="javascript:void(0)">Services</a>
               </li>
               <li className="text-gray-300 font-medium hover:text-pink-600">
-                <a href="javascript:void(0)">Portfolio</a>
+                <a href="javascript:void(0)">Skills</a>
               </li>
               <li className="text-gray-300 font-medium hover:text-pink-600">
-                <a href="javascript:void(0)">Blog</a>
+                <a href="javascript:void(0)">Projects</a>
               </li>
+              {/* <li className="text-gray-300 font-medium hover:text-pink-600">
+                <a href="javascript:void(0)">Blog</a>
+              </li> */}
               <div className="text-gray-300 font-medium">
                 <a
                   href="javascript:void(0)"
