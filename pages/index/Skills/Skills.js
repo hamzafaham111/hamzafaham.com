@@ -25,7 +25,7 @@ const Skills = () => {
           </span>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6 mt-8">
-          <div className="flex flex-row items-center justify-between bg-gray-800 p-2 border-l-4 border-pink-500">
+          <div className="flex flex-row items-center justify-between bg-gray-800 p-2 border-l-4 border-gray-300 hover:border-pink-500 duration-500">
             <div className="flex flex-row items-center ">
             <snap>
               <Image src="/SkillsAssets/HTML.png" height={25} width={25} />
@@ -35,7 +35,7 @@ const Skills = () => {
             <snap className="text-sm text-orange-500 font-bold">9/10</snap>
           </div>
 
-          <div className="flex flex-row items-center justify-between bg-gray-800 p-2 border-l-4 border-pink-500">
+          <div className="flex flex-row items-center justify-between bg-gray-800 p-2 border-l-4 border-gray-300 hover:border-pink-500 duration-500">
             <div className="flex flex-row items-center ">
             <snap>
               <Image src="/SkillsAssets/CSS.png" height={25} width={25} />
@@ -45,7 +45,7 @@ const Skills = () => {
             <snap className="text-sm text-blue-500 font-bold">9/10</snap>
           </div>
 
-          <div className="flex flex-row items-center justify-between bg-gray-800 p-2 border-l-4 border-pink-500">
+          <div className="flex flex-row items-center justify-between bg-gray-800 p-2 border-l-4 border-gray-300 hover:border-pink-500 duration-500">
             <div className="flex flex-row items-center ">
             <snap>
               <Image src="/SkillsAssets/JS.png" height={25} width={25} />
@@ -56,7 +56,7 @@ const Skills = () => {
           </div>
 
 
-          <div className="flex flex-row items-center justify-between bg-gray-800 p-2 border-l-4 border-pink-600">
+          <div className="flex flex-row items-center justify-between bg-gray-800 p-2 border-l-4 border-gray-300 hover:border-pink-500 duration-500">
             <div className="flex flex-row items-center ">
             <snap>
               <Image src="/SkillsAssets/Bootstrap.png" height={25} width={25} />
@@ -67,7 +67,7 @@ const Skills = () => {
           </div>
 
 
-          <div className="flex flex-row items-center justify-between bg-gray-800 p-2 border-l-4 border-pink-500">
+          <div className="flex flex-row items-center justify-between bg-gray-800 p-2 border-l-4 border-gray-300 hover:border-pink-500 duration-500">
             <div className="flex flex-row items-center ">
             <snap>
               <Image src="/SkillsAssets/React js.png" height={25} width={25} />
@@ -77,7 +77,7 @@ const Skills = () => {
             <snap className="text-sm text-violet-700 font-bold">7/10</snap>
           </div>
 
-          <div className="flex flex-row items-center justify-between bg-gray-800 p-2 border-l-4 border-pink-500">
+          <div className="flex flex-row items-center justify-between bg-gray-800 p-2 border-l-4 border-gray-300 hover:border-pink-500 duration-500">
             <div className="flex flex-row items-center ">
             <snap>
               <Image src="/SkillsAssets/Node js.png" height={25} width={25} />
@@ -87,7 +87,7 @@ const Skills = () => {
             <snap className="text-sm text-emerald-600 font-bold">7/10</snap>
           </div>
 
-          <div className="flex flex-row items-center justify-between bg-gray-800 p-2 border-l-4 border-pink-500">
+          <div className="flex flex-row items-center justify-between bg-gray-800 p-2 border-l-4 border-gray-300 hover:border-pink-500 duration-500">
             <div className="flex flex-row items-center ">
             <snap>
               <Image src="/SkillsAssets/Express js.png" height={25} width={25} />
@@ -97,7 +97,7 @@ const Skills = () => {
             <snap className="text-sm text-gray-400 font-bold">7/10</snap>
           </div>
 
-          <div className="flex flex-row items-center justify-between bg-gray-800 p-2 border-l-4 border-pink-500">
+          <div className="flex flex-row items-center justify-between bg-gray-800 p-2 border-l-4 border-gray-300 hover:border-pink-500 duration-500">
             <div className="flex flex-row items-center ">
             <snap>
               <Image src="/SkillsAssets/MongoDB.png" height={25} width={25} />
@@ -107,7 +107,7 @@ const Skills = () => {
             <snap className="text-sm text-emerald-500 font-bold">7/10</snap>
           </div>
 
-          <div className="flex flex-row items-center justify-between bg-gray-800 p-2 border-l-4 border-pink-500">
+          <div className="flex flex-row items-center justify-between bg-gray-800 p-2 border-l-4 border-gray-300 hover:border-pink-500 duration-500">
             <div className="flex flex-row items-center ">
             <snap>
               <Image src="/SkillsAssets/MySQL.png" height={25} width={25} />
@@ -117,7 +117,7 @@ const Skills = () => {
             <snap className="text-sm text-red-400 font-bold">7/10</snap>
           </div>
 
-          <div className="flex flex-row items-center justify-between bg-gray-800 p-2 border-l-4 border-pink-500">
+          <div className="flex flex-row items-center justify-between bg-gray-800 p-2 border-l-4 border-gray-300 hover:border-pink-500 duration-500">
             <div className="flex flex-row items-center ">
             <snap>
               <Image src="/SkillsAssets/Git.png" height={25} width={25} />
