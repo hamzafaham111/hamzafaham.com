@@ -112,7 +112,6 @@ export default function NavBar() {
                   <span>Contact</span>
                 </Link>
               </div>
-              <div></div>
             </ul>
           </div>
         </div>

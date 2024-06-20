@@ -53,12 +53,11 @@ const Portfolio = () => {
                 width={800}
               />
             </a>
-            {/* <div className="absolute flex flex-col items-center justify-center h-full w-full bg-transparant hover:bg-gray-500 bg-opicity-50 bg-opicity-10 top-0 ">
-              <span>repairkitchenappliances</span>
-              <span>Visit</span>
-            </div> */}
+            <div className="absolute flex items-center opacity-0 hover:opacity-100 cursor-pointer justify-center top-0 bottom-0 left-0 right-0 bg-opacity-0 hover:bg-opacity-70 bg-gray-600 duration-200">
+              <span className=" text-gray-200 font-bold">RepairAppliances</span>
+            </div>
           </div>
-          <div className="text-gray-300 h-44 cursor-pointer">
+          <div className="relative text-gray-300 h-44 cursor-pointer">
             <a href="https://www.smartsafedrivers.com" blank={true}>
               <Image
                 src="/PortfolioAssets/safeDrive.JPG"
@@ -68,8 +67,11 @@ const Portfolio = () => {
                 width={800}
               />
             </a>
+            <div className="absolute flex items-center opacity-0 hover:opacity-100 cursor-pointer justify-center top-0 bottom-0 left-0 right-0 bg-opacity-0 hover:bg-opacity-70 bg-gray-600 duration-200">
+              <span className=" text-gray-200 font-bold">SmartSafeDrive</span>
+            </div>
           </div>
-          <div className="text-gray-300 h-44 cursor-pointer">
+          <div className="relative text-gray-300 h-44 cursor-pointer">
             <a href="https://nelamhobe.vercel.app/home" blank={true}>
               <Image
                 src="/PortfolioAssets/nelamhobe.PNG"
@@ -79,6 +81,9 @@ const Portfolio = () => {
                 width={800}
               />
             </a>
+            <div className="absolute flex items-center opacity-0 hover:opacity-100 cursor-pointer justify-center top-0 bottom-0 left-0 right-0 bg-opacity-0 hover:bg-opacity-70 bg-gray-600 duration-200">
+              <span className=" text-gray-200 font-bold">NelamHobe</span>
+            </div>
           </div>
          
           <div className="text-gray-300 h-44 cursor-pointer">
