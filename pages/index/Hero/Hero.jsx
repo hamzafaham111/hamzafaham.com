@@ -21,7 +21,7 @@ const Hero = () => {
           <span className="font-bold text-xl">A Software Engineer</span>
           <div className="flex flex-row">
             <button className="border-2 border-pink-600 bg-pink-600 text-gray-300 mt-8 py-2 w-40 rounded-sm font-bold mr-2">
-              Learn More
+              Contact Me
             </button>
             <button onClick={handleDownload} className="border-2 border-pink-600 hover:bg-pink-600 duration-100 text-gray-300 mt-8 py-2 w-40 rounded-sm font-bold">
               Download Resume

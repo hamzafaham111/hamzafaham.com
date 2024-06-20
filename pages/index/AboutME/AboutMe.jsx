@@ -42,7 +42,7 @@ const AboutMe = () => {
               Download Resume
             </button>
             <button className="border border-pink-600 px-5 py-1 text-pink-600 font-bold ml-2 rounded-sm">
-              Learn More
+              Contact Me
             </button>
           </div>
         </div>

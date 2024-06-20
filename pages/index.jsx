@@ -15,44 +15,29 @@ const Home = () => {
     <>
       <div className="w-full root-bg">
         {/* Hero Section */}
+        <div id="home">
         <Hero />
-        {/* media icons section */}
-        {/* <div className="icon fixed top-64 bottom-0">
-        <Image
-          src={InstaIcon}
-          width="22"
-          height="22"
-          className="m-2 cursor-pointer hover:w-8"
-        />
-        <Image
-          src={TwitterIcon}
-          width="22"
-          height="22"
-          className="m-2 cursor-pointer hover:w-8"
-        />
-        <Image
-          src={FBIcon}
-          width="22"
-          height="22"
-          className="m-2 cursor-pointer hover:w-8"
-        />
-        <Image
-          src={Linkedin}
-          width="22"
-          height="22"
-          className="m-2 cursor-pointer hover:w-8"
-        />
-      </div> */}
+        </div>
         {/* About Me Section */}
+        <div id="aboutMe">
         <AboutMe />
+        </div>
         {/* Services Section */}
+        <div id="services">
         <Services />
+        </div>
         {/* Skills Section */}
+        <div id="skills">
         <Skills/>
+        </div>
         {/* Portfolio Section */}
+        <div id="portfolio">
         <Portfolio />
+        </div>
         {/* Contact Section */}
+        <div id="contact">
         <Contact />
+        </div>
       </div>
     </>
   );

@@ -1,3 +1,4 @@
+'use clinet'
 import { useState, useEffect, useRef } from "react";
 import { Link } from "react-scroll";
 export default function NavBar() {
@@ -74,31 +75,44 @@ export default function NavBar() {
           >
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
               <li className="text-gray-300 font-bold hover:text-pink-600">
-                <a href="javascript:void(0)">Home</a>
+                <Link
+                  to="home"
+                  smooth={true}
+                  className="text-gray-300 font-bold hover:text-pink-600"
+                >
+                  <a href="javascript:void(0)">Home</a>
+                </Link>
               </li>
               <li className="text-gray-300 font-medium hover:text-pink-600">
+                <Link to="aboutMe" smooth={true}>
                 <a href="javascript:void(0)">About</a>
+                </Link>
               </li>
               <li className="text-gray-300 font-medium hover:text-pink-600">
+                <Link to="services" smooth={true}>
                 <a href="javascript:void(0)">Services</a>
+                </Link>
               </li>
               <li className="text-gray-300 font-medium hover:text-pink-600">
+                <Link to="skills" smooth={true}>
                 <a href="javascript:void(0)">Skills</a>
+                </Link>
               </li>
               <li className="text-gray-300 font-medium hover:text-pink-600">
+                <Link to="portfolio" smooth={true}>
                 <a href="javascript:void(0)">Projects</a>
+                </Link>
               </li>
-              {/* <li className="text-gray-300 font-medium hover:text-pink-600">
-                <a href="javascript:void(0)">Blog</a>
-              </li> */}
               <div className="text-gray-300 font-medium">
-                <a
-                  href="javascript:void(0)"
+                <Link
+                  to="contact"
+                  smooth={true}
                   className="bg-pink-600 px-6 py-1 rounded-sm md:ml-20"
                 >
-                  Contact
-                </a>
+                  <span>Contact</span>
+                </Link>
               </div>
+              <div></div>
             </ul>
           </div>
         </div>
