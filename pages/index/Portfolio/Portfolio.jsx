@@ -1,11 +1,5 @@
 import Image from "next/image";
 import React from "react";
-// import SHImage from "./Assets/sh.jpg";
-// import Two from "./Assets/R.jpeg";
-// import Three from "./Assets/3.jpeg";
-// import Four from "./Assets/4.jpg";
-// import Five from "./Assets/5.jpg";
-// import Six from "./Assets/6.jpg";
 
 const Portfolio = () => {
   return (

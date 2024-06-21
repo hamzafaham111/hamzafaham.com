@@ -1,9 +1,4 @@
 import React from "react";
-// import Image from "next/image";
-// import InstaIcon from "./index/Assets/icons/instagram.svg";
-// import TwitterIcon from "./index/Assets/icons/twitter.svg";
-// import FBIcon from "./index/Assets/icons/facebook.svg";
-// import Linkedin from "./index/Assets/icons/linkedin.svg";
 import Hero from "./index/Hero/Hero";
 import AboutMe from "./index/AboutME/AboutMe";
 import Services from "./index/Services/Services";

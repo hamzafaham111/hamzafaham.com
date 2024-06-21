@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
+import { Link } from "react-scroll";
 const AboutMe = () => {
   const handleDownload = () => {
-    // Replace 'path/to/resume.pdf' with the actual path to your PDF resume
     const resumePath = 'Hamza_Faham_Resume.pdf';
     const link = document.createElement('a');
     link.href = resumePath;
@@ -41,9 +41,11 @@ const AboutMe = () => {
             <button onClick={handleDownload} className="border border-pink-600 px-5 py-1 bg-pink-600 text-gray-300 font-bold rounded-sm">
               Download Resume
             </button>
+            <Link to="contact" smooth={true}>
             <button className="border border-pink-600 px-5 py-1 text-pink-600 font-bold ml-2 rounded-sm">
               Contact Me
             </button>
+            </Link>
           </div>
         </div>
       </div>

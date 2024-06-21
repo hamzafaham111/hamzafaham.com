@@ -1,4 +1,3 @@
-'use clinet'
 import { useState, useEffect, useRef } from "react";
 import { Link } from "react-scroll";
 export default function NavBar() {
@@ -25,7 +24,7 @@ export default function NavBar() {
     >
       <div className="justify-between mx-auto max-w-7xl md:items-center md:flex">
         <div>
-          <div className=" flex items-center justify-between py-3 md:py-5 md:block">
+          <div className=" flex items-center justify-between py-3 md:block">
             <a href="javascript:void(0)">
               <h2 className="text-2xl font-bold text-pink-600">HF.</h2>
             </a>
