@@ -38,7 +38,7 @@ const Portfolio = () => {
         </div>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 text-white mt-8">
           <div className="text-gray-300 h-44 cursor-pointer relative">
-            <a href="https://www.repairkitchenappliance.com" blank={true}>
+            <a href="https://www.repairkitchenappliance.com" blank="true">
               <Image
                 src="/PortfolioAssets/repair-kitchen-appliance.JPG"
                 className="h-full w-full object-fill"
@@ -52,7 +52,7 @@ const Portfolio = () => {
             </div>
           </div>
           <div className="relative text-gray-300 h-44 cursor-pointer">
-            <a href="https://www.smartsafedrivers.com" blank={true}>
+            <a href="https://www.smartsafedrivers.com" blank="true">
               <Image
                 src="/PortfolioAssets/safeDrive.JPG"
                 className="h-full w-full object-fill"
@@ -66,7 +66,7 @@ const Portfolio = () => {
             </div>
           </div>
           <div className="relative text-gray-300 h-44 cursor-pointer">
-            <a href="https://nelamhobe.vercel.app/home" blank={true}>
+            <a href="https://nelamhobe.vercel.app/home" blank="true">
               <Image
                 src="/PortfolioAssets/nelamhobe.PNG"
                 className="h-full w-full object-fill"

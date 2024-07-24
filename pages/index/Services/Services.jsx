@@ -22,6 +22,7 @@ const Services = () => {
             <Image
               src="/ServicesAssets/Icons/website.png"
               height={30}
+              alt="image"
               width={30}
             />
             <span className="text-gray-300 font-bold my-2">
@@ -36,6 +37,7 @@ const Services = () => {
             <Image
               src="/ServicesAssets/Icons/design.png"
               height={30}
+              alt="image"
               width={30}
             />
             <span className="text-gray-300 font-bold my-2">UI/UX Design</span>
@@ -48,6 +50,7 @@ const Services = () => {
             <Image
               src="/ServicesAssets/Icons/system-design.png"
               height={30}
+              alt="image"
               width={30}
             />
             <span className="text-gray-300 font-bold my-2">System Design</span>
@@ -59,6 +62,7 @@ const Services = () => {
           <div className="bg-gray-900 border-pink-600 hover:bg-pink-900 cursor-pointer h-44 p-4 flex flex-col hover:pt-2 transition duration-500 ease-in-out">
             <Image
               src="/ServicesAssets/Icons/documentation.png"
+              alt="image"
               height={30}
               width={30}
             />
@@ -71,6 +75,7 @@ const Services = () => {
           <div className="bg-gray-900 border-pink-600 hover:bg-pink-900 cursor-pointer h-44 p-4 flex flex-col hover:pt-2 transition duration-500 ease-in-out">
             <Image
               src="/ServicesAssets/Icons/deployment.png"
+              alt="image"
               height={30}
               width={30}
             />

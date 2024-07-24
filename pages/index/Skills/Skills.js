@@ -28,7 +28,9 @@ const Skills = () => {
           <div className="flex flex-row items-center justify-between bg-gray-800 p-2 border-l-4 border-gray-300 hover:border-pink-500 duration-500">
             <div className="flex flex-row items-center ">
             <snap>
-              <Image src="/SkillsAssets/HTML.png" height={25} width={25} />
+              <Image src="/SkillsAssets/HTML.png"
+              alt="image"
+              height={25} width={25} />
             </snap>
             <snap className="text-gray-300 text-sm md:text-lg ml-1 font-bold">HTML</snap>
             </div>
@@ -38,7 +40,9 @@ const Skills = () => {
           <div className="flex flex-row items-center justify-between bg-gray-800 p-2 border-l-4 border-gray-300 hover:border-pink-500 duration-500">
             <div className="flex flex-row items-center ">
             <snap>
-              <Image src="/SkillsAssets/CSS.png" height={25} width={25} />
+              <Image src="/SkillsAssets/CSS.png"
+              alt="image"
+              height={25} width={25} />
             </snap>
             <snap className="text-gray-300 text-sm md:text-lg ml-1 font-bold">CSS</snap>
             </div>
@@ -48,7 +52,7 @@ const Skills = () => {
           <div className="flex flex-row items-center justify-between bg-gray-800 p-2 border-l-4 border-gray-300 hover:border-pink-500 duration-500">
             <div className="flex flex-row items-center ">
             <snap>
-              <Image src="/SkillsAssets/JS.png" height={25} width={25} />
+              <Image src="/SkillsAssets/JS.png" alt="image" height={25} width={25} />
             </snap>
             <snap className="text-gray-300 text-sm md:text-lg ml-1 font-bold">Javascript</snap>
             </div>
@@ -59,7 +63,7 @@ const Skills = () => {
           <div className="flex flex-row items-center justify-between bg-gray-800 p-2 border-l-4 border-gray-300 hover:border-pink-500 duration-500">
             <div className="flex flex-row items-center ">
             <snap>
-              <Image src="/SkillsAssets/Bootstrap.png" height={25} width={25} />
+              <Image src="/SkillsAssets/Bootstrap.png" alt="image" height={25} width={25} />
             </snap>
             <snap className="text-gray-300 text-sm md:text-lg ml-1 font-bold">Bootstrap</snap>
             </div>
@@ -70,7 +74,7 @@ const Skills = () => {
           <div className="flex flex-row items-center justify-between bg-gray-800 p-2 border-l-4 border-gray-300 hover:border-pink-500 duration-500">
             <div className="flex flex-row items-center ">
             <snap>
-              <Image src="/SkillsAssets/React js.png" height={25} width={25} />
+              <Image src="/SkillsAssets/React js.png" alt="image" height={25} width={25} />
             </snap>
             <snap className="text-gray-300 text-sm md:text-lg ml-1 font-bold">React js</snap>
             </div>
@@ -80,7 +84,7 @@ const Skills = () => {
           <div className="flex flex-row items-center justify-between bg-gray-800 p-2 border-l-4 border-gray-300 hover:border-pink-500 duration-500">
             <div className="flex flex-row items-center ">
             <snap>
-              <Image src="/SkillsAssets/Node js.png" height={25} width={25} />
+              <Image src="/SkillsAssets/Node js.png" alt="image" height={25} width={25} />
             </snap>
             <snap className="text-gray-300 text-sm md:text-lg ml-1 font-bold">Node js</snap>
             </div>
@@ -90,7 +94,7 @@ const Skills = () => {
           <div className="flex flex-row items-center justify-between bg-gray-800 p-2 border-l-4 border-gray-300 hover:border-pink-500 duration-500">
             <div className="flex flex-row items-center ">
             <snap>
-              <Image src="/SkillsAssets/Express js.png" height={25} width={25} />
+              <Image src="/SkillsAssets/Express js.png" alt="image" height={25} width={25} />
             </snap>
             <snap className="text-gray-300 text-sm md:text-lg ml-1 font-bold">Express js</snap>
             </div>
@@ -100,7 +104,7 @@ const Skills = () => {
           <div className="flex flex-row items-center justify-between bg-gray-800 p-2 border-l-4 border-gray-300 hover:border-pink-500 duration-500">
             <div className="flex flex-row items-center ">
             <snap>
-              <Image src="/SkillsAssets/MongoDB.png" height={25} width={25} />
+              <Image src="/SkillsAssets/MongoDB.png" alt="image" height={25} width={25} />
             </snap>
             <snap className="text-gray-300 text-sm md:text-lg ml-1 font-bold">MongoDB</snap>
             </div>
@@ -110,7 +114,7 @@ const Skills = () => {
           <div className="flex flex-row items-center justify-between bg-gray-800 p-2 border-l-4 border-gray-300 hover:border-pink-500 duration-500">
             <div className="flex flex-row items-center ">
             <snap>
-              <Image src="/SkillsAssets/MySQL.png" height={25} width={25} />
+              <Image src="/SkillsAssets/MySQL.png" alt="image" height={25} width={25} />
             </snap>
             <snap className="text-gray-300 text-sm md:text-lg ml-1 font-bold">MySQL</snap>
             </div>
@@ -120,74 +124,12 @@ const Skills = () => {
           <div className="flex flex-row items-center justify-between bg-gray-800 p-2 border-l-4 border-gray-300 hover:border-pink-500 duration-500">
             <div className="flex flex-row items-center ">
             <snap>
-              <Image src="/SkillsAssets/Git.png" height={25} width={25} />
+              <Image src="/SkillsAssets/Git.png" alt="image" height={25} width={25} />
             </snap>
             <snap className="text-gray-300 text-sm md:text-lg ml-1 font-bold">GitHub</snap>
             </div>
             <snap className="text-sm text-red-500 font-bold">7/10</snap>
           </div>
-          {/* <div className="bg-gray-900 hover:bg-pink-900 cursor-pointer flex flex-col p-4 hover:pt-2 transition duration-500 ease-in-out">
-            <Image
-              src="/ServicesAssets/Icons/website.png"
-              height={30}
-              width={30}
-            />
-            <span className="text-gray-300 font-bold my-2">
-              Web Development
-            </span>
-            <span className={`text-gray-300 text-xs sm:text-sm leading-4 overflow-auto ${Style.custom_scroll}`}>
-              I am a full-stack web developer having 2 years of experience in
-              MERN stack.
-            </span>
-          </div>
-          <div className="bg-gray-900 border-pink-600 hover:bg-pink-900 cursor-pointer flex flex-col p-4 hover:pt-2 transition duration-500 ease-in-out">
-            <Image
-              src="/ServicesAssets/Icons/design.png"
-              height={30}
-              width={30}
-            />
-            <span className="text-gray-300 font-bold my-2">UI/UX Design</span>
-            <span className={`text-gray-300 text-xs sm:text-sm leading-4 overflow-auto ${Style.custom_scroll}`}>
-              UI/UX design refers to the process of designing the user interface
-              of a product.
-            </span>
-          </div>
-          <div className="bg-gray-900 border-pink-600 hover:bg-pink-900 cursor-pointer flex flex-col p-4 hover:pt-2 transition duration-500 ease-in-out">
-            <Image
-              src="/ServicesAssets/Icons/system-design.png"
-              height={30}
-              width={30}
-            />
-            <span className="text-gray-300 font-bold my-2">System Design</span>
-            <span className={`text-gray-300 text-xs sm:text-sm leading-4 overflow-auto ${Style.custom_scroll}`}>
-              I have been providing system design services (HLD & LLD) for the
-              past 2 years as a freeancer.
-            </span>
-          </div>
-          <div className="bg-gray-900 border-pink-600 hover:bg-pink-900 cursor-pointer p-4 flex flex-col hover:pt-2 transition duration-500 ease-in-out">
-            <Image
-              src="/ServicesAssets/Icons/documentation.png"
-              height={30}
-              width={30}
-            />
-            <span className="text-gray-300 font-bold my-2">Documentation</span>
-            <span className={`text-gray-300 text-xs sm:text-sm leading-4 overflow-auto ${Style.custom_scroll}`}>
-              I can make your project documentation and project report, I have 2
-              years of experience in it. with less then 10% of plagerisem
-            </span>
-          </div>
-          <div className="bg-gray-900 border-pink-600 hover:bg-pink-900 cursor-pointer p-4 flex flex-col hover:pt-2 transition duration-500 ease-in-out">
-            <Image
-              src="/ServicesAssets/Icons/deployment.png"
-              height={30}
-              width={30}
-            />
-            <span className="text-gray-300 font-bold my-2">Deployment</span>
-            <span className={`text-gray-300 text-xs sm:text-sm leading-4 overflow-auto ${Style.custom_scroll}`}>
-              I am a full-stack web developer having 2 years of experience in
-              MERN stack.
-            </span>
-          </div> */}
         </div>
       </div>
     </>

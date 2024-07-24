@@ -8,31 +8,31 @@ import Skills from "./index/Skills/Skills";
 const Home = () => {
   return (
     <>
-      <div className="w-full root-bg">
+      <div className="w-full root-bg !scroll-smooth">
         {/* Hero Section */}
-        <div id="home">
+        <section id="home">
         <Hero />
-        </div>
+        </section>
         {/* About Me Section */}
-        <div id="aboutMe">
+        <section id="aboutMe">
         <AboutMe />
-        </div>
+        </section>
         {/* Services Section */}
-        <div id="services">
+        <section id="services">
         <Services />
-        </div>
+        </section>
         {/* Skills Section */}
-        <div id="skills">
+        <section id="skills">
         <Skills/>
-        </div>
+        </section>
         {/* Portfolio Section */}
-        <div id="portfolio">
+        <section id="portfolio">
         <Portfolio />
-        </div>
+        </section>
         {/* Contact Section */}
-        <div id="contact">
+        <section id="contact">
         <Contact />
-        </div>
+        </section>
       </div>
     </>
   );

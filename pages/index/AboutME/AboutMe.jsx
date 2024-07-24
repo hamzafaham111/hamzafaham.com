@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import { Link } from "react-scroll";
+import Link from "next/link";
+
 const AboutMe = () => {
   const handleDownload = () => {
     const resumePath = 'Hamza_Faham_Resume.pdf';
@@ -41,7 +42,7 @@ const AboutMe = () => {
             <button onClick={handleDownload} className="border border-pink-600 px-5 py-1 bg-pink-600 text-gray-300 font-bold rounded-sm">
               Download Resume
             </button>
-            <Link to="contact" smooth={true}>
+            <Link href="#contact">
             <button className="border border-pink-600 px-5 py-1 text-pink-600 font-bold ml-2 rounded-sm">
               Contact Me
             </button>

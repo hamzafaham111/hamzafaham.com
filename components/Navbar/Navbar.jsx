@@ -1,5 +1,6 @@
+import Link from "next/link";
 import { useState, useEffect, useRef } from "react";
-import { Link } from "react-scroll";
+
 export default function NavBar() {
   const [navbar, setNavbar] = useState(false);
   const navRef = useRef(null);
@@ -25,9 +26,9 @@ export default function NavBar() {
       <div className="justify-between mx-auto max-w-7xl md:items-center md:flex">
         <div>
           <div className=" flex items-center justify-between py-3 md:block">
-            <a href="javascript:void(0)">
+            <span>
               <h2 className="text-2xl font-bold text-pink-600">HF.</h2>
-            </a>
+            </span>
             <div className="md:hidden">
               <button
                 className=" text-pink-600 rounded-md outline-none"
@@ -75,37 +76,34 @@ export default function NavBar() {
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
               <li className="text-gray-300 font-bold hover:text-pink-600">
                 <Link
-                  to="home"
-                  smooth={true}
-                  className="text-gray-300 font-bold hover:text-pink-600"
+                  href="#home"
                 >
-                  <a href="javascript:void(0)">Home</a>
+                  <span>Home</span>
                 </Link>
               </li>
               <li className="text-gray-300 font-medium hover:text-pink-600">
-                <Link to="aboutMe" smooth={true}>
-                <a href="javascript:void(0)">About</a>
+                <Link href="#aboutMe">
+                <span>About</span>
                 </Link>
               </li>
               <li className="text-gray-300 font-medium hover:text-pink-600">
-                <Link to="services" smooth={true}>
-                <a href="javascript:void(0)">Services</a>
+                <Link href="#services">
+                <span>Services</span>
                 </Link>
               </li>
               <li className="text-gray-300 font-medium hover:text-pink-600">
-                <Link to="skills" smooth={true}>
-                <a href="javascript:void(0)">Skills</a>
+                <Link href="#skills">
+                <span>Skills</span>
                 </Link>
               </li>
               <li className="text-gray-300 font-medium hover:text-pink-600">
-                <Link to="portfolio" smooth={true}>
-                <a href="javascript:void(0)">Projects</a>
+                <Link href="#portfolio">
+                <span>Projects</span>
                 </Link>
               </li>
               <div className="text-gray-300 font-medium">
                 <Link
-                  to="contact"
-                  smooth={true}
+                  href="#contact"
                   className="bg-pink-600 px-6 py-1 rounded-sm md:ml-20"
                 >
                   <span>Contact</span>

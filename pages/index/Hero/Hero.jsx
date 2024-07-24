@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import { Link } from "react-scroll";
+import Link from "next/link";
+
 const Hero = () => {
   const handleDownload = () => {
     const resumePath = "Hamza_Faham_Resume.pdf";
@@ -19,7 +20,7 @@ const Hero = () => {
           </span>
           <span className="font-bold text-xl">A Software Engineer</span>
           <div className="flex flex-row">
-            <Link to="contact" smooth={true}>
+            <Link href="#contact">
               <button className="border-2 border-pink-600 bg-pink-600 text-gray-300 mt-8 py-2 w-40 rounded-sm font-bold mr-2">
                 Contact Me
               </button>
