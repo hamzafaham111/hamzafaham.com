@@ -60,7 +60,7 @@ const Contact = () => {
   const [error, setError] = useState(false);
   return (
     <div className="flex md:h-screen items-center">
-      <div className="w-full pt-32 pb-32 md:pb-0 md:pt-0 px-4 sm:px-8 md:px-32 text-gray-300 flex flex-col md:flex-row items-end">
+      <div className="w-full pt-32 pb-32 md:pb-0 md:pt-0 text-gray-300 flex flex-col md:flex-row items-end">
         <div className="w-full">
           <div className="mb-5 flex flex-col">
             <span className="text-gray-300 text-3xl font-bold">Contact</span>

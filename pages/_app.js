@@ -12,7 +12,9 @@ export default function App({ Component, pageProps }) {
       </Head>
     
     <NavBar />
+    <div  className='min-h-[100vh] bg-black px-4 sm:px-8 md:px-32'>
     <Component {...pageProps} />
+    </div>
     <Footer />
   </>)
 }
