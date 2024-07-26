@@ -27,3 +27,7 @@ body{
 .root-bg {
   background-color: black;
 }
+
+.swiper-pagination-bullet{
+  background: white !important;
+}

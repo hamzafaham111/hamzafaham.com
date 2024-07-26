@@ -1,0 +1,10 @@
+.custom-swiper {
+    position: relative;
+  }
+  
+  .custom-swiper .swiper-pagination {
+    position: absolute;
+    bottom: -20px; /* Adjust this value as needed to move the dots further down */
+    width: 100%;
+    text-align: center;
+  }
