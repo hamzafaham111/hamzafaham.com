@@ -1,3 +1,4 @@
+'use client'
 import React from "react";
 import Caracol from "../../components/Carasol.js/freeScroll";
 const index = () => {

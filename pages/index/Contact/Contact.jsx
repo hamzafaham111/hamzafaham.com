@@ -161,7 +161,6 @@ const Contact = () => {
                 style={{ border: 0 }}
                 width="100%"
                 height="135"
-                allowfullscreen=""
                 loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"
               ></iframe>
