@@ -56,7 +56,7 @@ const Caracol = () => {
               viewBox="0 0 24 24"
               // strokeWidth={1.5}
               stroke="currentColor"
-              className="h-5 w-5 mr-2 text-orange-500"
+              className="h-5 w-5 mr-2 text-gray-300"
             >
               <path
                 strokeLinecap="round"
@@ -65,7 +65,7 @@ const Caracol = () => {
               />
             </svg>
 
-            <span className="text-xs text-orange-500 font-semibold">27 JULY 2024</span>
+            <span className="text-xs text-gray-300 font-semibold">27 JULY 2024</span>
             </div>
             <div className="absolute bottom-10 ">
               <h1 className="w-4/6 leading-none text-2xl font-semibold">
@@ -93,7 +93,7 @@ const Caracol = () => {
               viewBox="0 0 24 24"
               // strokeWidth={1.5}
               stroke="currentColor"
-              className="h-5 w-5 mr-2 text-orange-500"
+              className="h-5 w-5 mr-2 text-gray-300"
             >
               <path
                 strokeLinecap="round"
@@ -102,7 +102,7 @@ const Caracol = () => {
               />
             </svg>
 
-            <span className="text-xs text-orange-500 font-semibold">27 JULY 2024</span>
+            <span className="text-xs text-gray-300 font-semibold">27 JULY 2024</span>
             </div>
             <div className="absolute bottom-10 ">
               <h1 className="w-4/6 leading-none text-2xl font-semibold">
@@ -130,7 +130,7 @@ const Caracol = () => {
               viewBox="0 0 24 24"
               // strokeWidth={1.5}
               stroke="currentColor"
-              className="h-5 w-5 mr-2 text-orange-500"
+              className="h-5 w-5 mr-2 text-gray-300"
             >
               <path
                 strokeLinecap="round"
@@ -139,7 +139,7 @@ const Caracol = () => {
               />
             </svg>
 
-            <span className="text-xs text-orange-500 font-semibold">27 JULY 2024</span>
+            <span className="text-xs text-gray-300 font-semibold">27 JULY 2024</span>
             </div>
             <div className="absolute bottom-10 ">
               <h1 className="w-4/6 leading-none text-2xl font-semibold">
@@ -167,7 +167,7 @@ const Caracol = () => {
               viewBox="0 0 24 24"
               // strokeWidth={1.5}
               stroke="currentColor"
-              className="h-5 w-5 mr-2 text-orange-500"
+              className="h-5 w-5 mr-2 text-gray-300"
             >
               <path
                 strokeLinecap="round"
@@ -176,7 +176,7 @@ const Caracol = () => {
               />
             </svg>
 
-            <span className="text-xs text-orange-500 font-semibold">27 JULY 2024</span>
+            <span className="text-xs text-gray-300 font-semibold">27 JULY 2024</span>
             </div>
             <div className="absolute bottom-10 ">
               <h1 className="w-4/6 leading-none text-2xl font-semibold">

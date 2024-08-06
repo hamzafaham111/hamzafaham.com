@@ -137,7 +137,8 @@ export default function NavBar() {
         </nav>
       ) : (
         <div className="px-4 sm:px-8 md:px-32 bg-black flex items-center">
-          <h2 className="text-2xl font-bold text-orange-500">HF.</h2><span className="text-white text-2xl ml-2">Blogs</span>
+          <h2 className="text-2xl font-bold text-gray-100">HF.</h2>
+          {/* <span className="text-white text-2xl ml-2">Blogs</span> */}
         </div>
       )}
     </>
